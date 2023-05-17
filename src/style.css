@@ -14,7 +14,7 @@ time, mark, audio, video {
 	margin: 0;
 	padding: 0;
 	border: 0;
-	font-size: 100%;
+	font-size: 16px;
 	font: inherit;
 	vertical-align: baseline;
 }
@@ -43,4 +43,57 @@ table {
 }
 
 /* My Styling*/
+
+body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.main-wrapper {
+    min-height:60vh;
+    max-height: auto;
+    width: 40vw;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.img-wrapper {
+    height: 60%;
+    aspect-ratio: 1 / 1;
+    background-color: black;
+    overflow: hidden;
+    border-radius: 1rem;
+    border: 2px solid brown;
+    margin-bottom: 1rem;
+}
+
+#portrait {
+    height:100%;
+    width:100%;
+}
+
+.info-wrapper {
+    width: 80%;
+    padding:3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    border-radius: 1rem;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+#another {
+    font-size: 2rem;
+    height: 2.5rem;
+    width: 40%;
+}
 
